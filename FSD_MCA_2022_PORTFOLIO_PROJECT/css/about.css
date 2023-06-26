@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700&display=swap");
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Serif', serif;
+}
+.wrappers{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #333;
+}
+.wrappers .contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    margin: auto;
+}
+.contain .image{
+    margin-top: 60px;    
+}
+.contain .image img{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+}
+.contain .article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.contain .article h2{
+    color: darkolivegreen;
+    font-size: 55px;
+    font-weight: 300;
+}
+.contain .article span{
+    color: bisque;
+    font-size: 55px;
+    font-weight: 500;
+}
+.contain .article p{
+    font-size: 19px;
+    color: brown;
+    margin: 10px 0px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: oblique;
+    align-items:flex-start;
+}
+ .article a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 16px;
+    background-color: #458a49;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+}
+ .article a:hover{
+    background-color: #458a49;
+}
